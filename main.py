@@ -6,9 +6,7 @@ three = 0
 #print(random.randint(0,9999))
 for i in range(0,1000):
   i = random.randint(0,9999)
-  #print(i)
   number = str(i)
-  #print(number)
   if number[0] == "1":
     one += 1
 
